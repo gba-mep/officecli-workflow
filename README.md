@@ -1,5 +1,17 @@
 # OfficeCLI Workflow · 批量改 Office 文檔
 
+<div align="center">
+
+**OfficeCLI batch document modification workflow**
+
+Modify existing .docx/.xlsx/.pptx files with batch JSON mode and stable path addressing.
+
+[快速開始](#快速開始) · [文件結構](#文件結構)
+
+</div>
+
+---
+
 > AI-native Office CLI 實戰工作流。用於**修改現有** .docx / .xlsx / .pptx 文檔——改日期、替換文字、更新表格、find/replace。
 
 ## 解決什麼問題
@@ -72,7 +84,7 @@ officecli batch file.docx --input changes.json --force --json
 ## 快速開始
 
 1. 確保使用 **PowerShell**（唔好用 Git Bash）
-2. 讀 [SKILL.md](SKILL.md) 熟悉完整工作流
+2. 讀 [DOCUMENTATION.md](DOCUMENTATION.md) 熟悉完整工作流
 3. 先用 `view` / `get` 睇清楚文檔結構
 4. 用 `close` 釋放鎖定
 5. 寫 batch JSON，一次過執行所有修改
@@ -83,7 +95,7 @@ officecli batch file.docx --input changes.json --force --json
 ```
 officecli-workflow/
 ├── README.md       # 本文件（GitHub 預覽頁）
-└── SKILL.md        # 完整技能文檔（工作流 + 常見坑 + 實戰案例）
+└── DOCUMENTATION.md        # 完整技能文檔（工作流 + 常見坑 + 實戰案例）
 ```
 
 ## 常見坑位提醒
@@ -96,4 +108,6 @@ officecli-workflow/
 
 ---
 
-*屬於 [Engineering AI Skills](https://github.com/David-CB666/engineering-ai-skills) 技能集合*
+## License
+
+MIT License — feel free to use, modify, and share.
