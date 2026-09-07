@@ -1,7 +1,7 @@
----
+﻿---
 name: officecli-workflow
 triggers: ["OfficeCLI", "批量修改文檔", "改日期", "替換文字", "更新表格", "find/replace", "docx修改", "xlsx修改", "pptx修改", "Office修改"]
-description: OfficeCLI 批量修改文檔工作流。當需要修改現有 .docx/.xlsx/.pptx 文檔（改日期、替換文字、更新表格、find/replace 等）時使用此技能。不適用於從零生成文檔、PDF 操作或複雜格式邏輯（這些場景優先使用 Python 生態：GanttChart Pro、macau-material-approval 等）。
+description: OfficeCLI 批量修改文檔工作流。當需要修改現有 .docx/.xlsx/.pptx 文檔（改日期、替換文字、更新表格、find/replace 等）時使用此技能。不適用於從零生成文檔、PDF 操作或複雜格式邏輯（這些場景優先使用 Python 生態：GanttChart Pro、material-approval-pipeline 等）。
 agent_created: true
 ---
 
@@ -114,6 +114,6 @@ officecli close file.docx
 ## 何時不要用 OfficeCLI
 
 - 從零生成文檔（用 GanttChart Pro / python-docx）
-- 報批 + BQ 合併 PDF 操作（用 macau-material-approval）
+- 報批 + BQ 合併 PDF 操作（用 material-approval-pipeline）
 - 複雜 Python 邏輯（用 S3/S4 生態）
 - 甘特圖生成（用 GanttChart Pro v15.0）
