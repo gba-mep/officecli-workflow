@@ -1,4 +1,4 @@
-﻿---
+---
 name: officecli-workflow
 triggers: ["OfficeCLI", "批量修改文档", "改日期", "替换文字", "更新表格", "find/replace", "docx修改", "xlsx修改", "pptx修改", "Office修改"]
 description: OfficeCLI 批量修改文档工作流。当需要修改现有 .docx/.xlsx/.pptx 文档（改日期、替换文字、更新表格、find/replace 等）时使用此技能。不适用于从零生成文档、PDF 操作或复杂格式逻辑（这些场景优先使用 Python 生态：GanttChart Pro、material-approval-pipeline 等）。
