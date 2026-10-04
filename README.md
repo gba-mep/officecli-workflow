@@ -14,8 +14,6 @@ Modify existing .docx/.xlsx/.pptx files with batch JSON mode and stable path add
 
 </div>
 
-![Office 批次改文件工作流](assets/workflow-overview.jpg)
-
 ---
 
 > AI-native Office CLI 实战工作流。用于**修改现有** .docx / .xlsx / .pptx 文档——改日期、替换文字、更新表格、find/replace。
